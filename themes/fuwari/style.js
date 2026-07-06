@@ -4,14 +4,14 @@ const Style = () => {
   return <style jsx global>{`
     #theme-fuwari {
       --fuwari-bg: #f3f4f8;
-      --fuwari-bg-soft: #f6f4e8;
+      --fuwari-bg-soft: #f0f0f0;
       --fuwari-surface: #ffffff;
       --fuwari-muted: #72767d;
       --fuwari-text: #232a37;
-      --fuwari-primary: #b8a320;
-      --fuwari-primary-soft: rgba(184, 163, 32, 0.14);
-      --fuwari-border: #e9e8df;
-      --fuwari-gradient: linear-gradient(135deg, #b8a320 0%, #e0ce63 100%);
+      --fuwari-primary: #111111;
+      --fuwari-primary-soft: rgba(17, 17, 17, 0.10);
+      --fuwari-border: #e2e2e2;
+      --fuwari-gradient: linear-gradient(135deg, #111111 0%, #555555 100%);
     }
 
     .dark #theme-fuwari {
@@ -20,10 +20,10 @@ const Style = () => {
       --fuwari-surface: #171f2c;
       --fuwari-muted: #9ca3af;
       --fuwari-text: #f3f4f6;
-      --fuwari-primary: #d3bf53;
-      --fuwari-primary-soft: rgba(211, 191, 83, 0.2);
+      --fuwari-primary: #e5e7eb;
+      --fuwari-primary-soft: rgba(229, 231, 235, 0.12);
       --fuwari-border: #283446;
-      --fuwari-gradient: linear-gradient(135deg, #8576ff 0%, #4ba9ff 100%);
+      --fuwari-gradient: linear-gradient(135deg, #d1d5db 0%, #9ca3af 100%);
     }
 
     #theme-fuwari.fuwari-bg {
